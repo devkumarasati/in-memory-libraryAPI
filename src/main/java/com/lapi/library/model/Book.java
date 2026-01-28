@@ -8,7 +8,7 @@ public class Book {
     private int year;
 
     public Book() {
-        // default constructor (required by Spring)
+
     }
 
     public Book(int id, String title, String author, int year) {
