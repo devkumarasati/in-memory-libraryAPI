@@ -31,7 +31,7 @@ http://localhost:8080
 
 3. Design & Implementation Logic
 ---------------------------------
-Approach & Rationale
+-Approach & Rationale
 
 In-Memory Storage: Used HashMap<Integer, Book> instead of a database as per project requirements.
 
@@ -49,7 +49,7 @@ Model: Book representation
 Exception Handling: Centralized via @ControllerAdvice
 Benefits: Clean, readable, testable, and scalable code.
 
--Hardest Bug & Resolution
+-Hardest B ug & Resolution
 -------------------------
 
 Problem:
@@ -87,14 +87,12 @@ The following Postman screenshots demonstrate that all CRUD operations work perf
 3.Search Books by Year
 4.Delete Book
 
-
-- Screenshots
----------------
+Screenshots
 
 - [Project running](./images/running-project.png)  
 - [GET request](./images/postman_get.png)  
-- [POST request](./images/postman_post.png)
-  
+- [POST request](./images/postman_post.png)  
+
 Books are successfully stored and retrieved from in-memory storage, as required.
 
 6. Exception Handling
@@ -123,7 +121,7 @@ Pagination & sorting for book listings
 Optionally integrate a database (H2/MySQL) while keeping in-memory mode configurable
 
 Conclusion
--------------
+----------
 
 This project successfully demonstrates:
 
