@@ -31,7 +31,7 @@ http://localhost:8080
 
 3. Design & Implementation Logic
 ---------------------------------
-🔹 Approach & Rationale
+Approach & Rationale
 
 In-Memory Storage: Used HashMap<Integer, Book> instead of a database as per project requirements.
 
@@ -82,11 +82,19 @@ GET /books/search?year=2024
 
 The following Postman screenshots demonstrate that all CRUD operations work perfectly:
 
-✅ Add Books
-✅ Get All Books
-✅ Search Books by Year
-✅ Delete Book
+1.Add Books
+2.Get All Books
+3.Search Books by Year
+4.Delete Book
 
+
+- Screenshots
+---------------
+
+- [Project running](./images/running-project.png)  
+- [GET request](./images/postman_get.png)  
+- [POST request](./images/postman_post.png)
+  
 Books are successfully stored and retrieved from in-memory storage, as required.
 
 6. Exception Handling
@@ -114,7 +122,8 @@ Auto-generated API documentation using Swagger/OpenAPI
 Pagination & sorting for book listings
 Optionally integrate a database (H2/MySQL) while keeping in-memory mode configurable
 
-✅ Conclusion
+Conclusion
+-------------
 
 This project successfully demonstrates:
 
